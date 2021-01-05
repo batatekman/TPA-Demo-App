@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.terminus.tpa.VisitTravelSites">
+
+        <!-- TextView Documenting Intro for Journeys in PNG -->
+        <TextView
+            android:id="@+id/intro_accommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- Button for Hotel -->
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/journeys_png_standard"
+            android:text="Hotel"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButtonTextAdventures" />
+
+        <!-- Button for Self Catering -->
+        <Button
+            android:id="@+id/selfCatering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/journeys_png_standard"
+            android:text="Self Catering"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButtonTextAdventures" />
+
+        <!-- Button for Guest House and Hosted -->
+        <Button
+            android:id="@+id/guestHouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/journeys_png_standard"
+            android:text="Guest House &amp; Hosted"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButtonTextAdventures" />
+
+        <!-- Button for Backpackers / Budget -->
+        <Button
+            android:id="@+id/backpackers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/journeys_png_standard"
+            android:text="Backpackers / Budget"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButtonTextAdventures" />
+
+        <!-- Button for Traditional -->
+        <Button
+            android:id="@+id/traditional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/journeys_png_standard"
+            android:text="Traditional / Informal &#10; Accommodation"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorButtonTextAdventures" />
+
+        <!-- Copyright TextView -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:text="\u00A9PNG Tourism Promotion Authority 2017. All Rights Reserved"/>
+
+    </LinearLayout>
+
+</ScrollView>

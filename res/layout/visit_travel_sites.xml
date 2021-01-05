@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.terminus.tpa.VisitTravelSites">
+
+    <Button
+        android:id="@+id/aboutPapuaNewGuinea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/about_papua_new_guinea"
+        android:text="ABOUT PAPUA NEW GUINEA"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTPAPNGText" />
+
+    <Button
+        android:id="@+id/journeysPNG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png"
+        android:text="JOURNEYS IN PNG"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTPAPNGText" />
+
+    <Button
+        android:id="@+id/accommodation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/accommodation"
+        android:text="ACCOMMODATION"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTPAPNGText" />
+
+    <Button
+        android:id="@+id/tourOperators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/tour_operators"
+        android:text="TOURS &amp; TOUR OPERATORS"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTPAPNGText" />
+
+    <Button
+        android:id="@+id/newsEventsMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/news_events_media"
+        android:text="NEWS, EVENTS &amp; MEDIA"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTPAPNGText" />
+
+    <Button
+        android:id="@+id/culturalEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/cultural_events"
+        android:text="CULTURAL EVENTS"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTPAPNGText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:text="\u00A9PNG Tourism Promotion Authority 2017. All Rights Reserved"/>
+
+</LinearLayout>

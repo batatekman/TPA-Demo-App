@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.terminus.tpa" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VisitTravelSites"
+            android:label="@string/visitTravelSites">
+
+        </activity>
+        <activity android:name=".ImageVideosGallery"
+            android:label="Image and Video Gallery">
+
+        </activity>
+        <activity android:name=".AboutPapuaNewGuinea"
+            android:label="About Papua New Guinea">
+
+        </activity>
+        <activity android:name=".JourneysInPNG"
+            android:label="Journeys in PNG">
+
+        </activity>
+        <activity android:name=".TrekkingHiking"
+            android:label="Trekking &amp; Hiking">
+
+        </activity>
+        <activity android:name=".Diving"
+            android:label="Diving">
+
+        </activity>
+        <activity android:name=".Surfing"
+            android:label="Surfing">
+
+        </activity>
+        <activity android:name=".Fishing"
+            android:label="Fishing">
+
+        </activity>
+        <activity android:name=".Cruising"
+            android:label="Cruising">
+
+        </activity>
+        <activity android:name=".BirdWatching"
+            android:label="Bird Watching">
+
+        </activity>
+        <activity android:name=".Kayaking"
+            android:label="Kayaking">
+
+        </activity>
+        <activity android:name=".Snorkelling"
+            android:label="Snorkelling">
+
+        </activity>
+        <activity android:name=".Accommodation"
+            android:label="Accommodation">
+
+        </activity>
+        <activity android:name=".Hotel"
+            android:label="Hotel">
+
+        </activity>
+        <activity android:name=".ToursTourOperators"
+            android:label="Tours &amp; Tour Operators">
+
+        </activity>
+        <activity android:name=".ImageGallery"
+            android:label="Image Gallery">
+
+        </activity>
+    </application>
+
+</manifest>

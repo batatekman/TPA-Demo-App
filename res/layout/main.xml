@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.terminus.tpa.MainActivity">
+
+    <Button
+        android:id="@+id/visitTravelSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/visit_travel_site"
+        android:text="ViSiT OUR TRAVEL SiTES"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/imageAndVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/image_and_video"
+        android:text="iMAGE &amp; ViDEO GALLERY"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/mediaEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/media_events"
+        android:text="MEDiA EVENTS"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/industryEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/industry_events"
+        android:text="iNDUSTRY EVENTS"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/latestNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/latest_news"
+        android:text="LATEST NEWS"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorLatestNews" />
+
+    <Button
+        android:id="@+id/tradeeNewsSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/trade_enews_sign_up"
+        android:text="TRADE eNEWS SiGN UP"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryLight" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:text="\u00A9PNG Tourism Promotion Authority 2017. All Rights Reserved"/>
+
+
+
+</LinearLayout>

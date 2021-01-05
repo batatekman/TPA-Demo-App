@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TextView Documenting Early History in PNG -->
+        <TextView
+            android:id="@+id/early_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+
+        <!-- This is Early History Images for Papua New Guinea -->
+        <!-- Images obtained from TPA 2017                     -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/img_history_0002"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_history_0004"/>
+
+        <!-- TextView Documenting Early Europeans History in PNG -->
+        <TextView
+            android:id="@+id/early_europeans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- This is Early European History Images for PNG -->
+        <!-- Images obtained from TPA 2017                 -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/img_early_settlers_0001"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_early_settlers_0002"/>
+
+        <!-- TextView Documenting Colonisation History in PNG -->
+        <TextView
+            android:id="@+id/colonisation_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- This is Colonisation History Images for PNG -->
+        <!-- Images obtained from TPA 2017               -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_early_settlers_0003" />
+
+        <!-- TextView Documenting People & PNG Culture -->
+        <TextView
+            android:id="@+id/peoplePNGCulture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- This is People PNG Culture Images for PNG -->
+        <!-- Images obtained from TPA 2017             -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_aboutpng2" />
+
+        <!-- TextView Documenting Languages in PNG -->
+        <TextView
+            android:id="@+id/pngLanguages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- TextView Documenting Village Life in PNG -->
+        <TextView
+            android:id="@+id/pngVillageLife"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- Copyright TPA PNG -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:text="\u00A9PNG Tourism Promotion Authority 2017. All Rights Reserved"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

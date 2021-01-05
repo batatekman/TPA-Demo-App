@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#241103</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#006699</color>
+    <color name="colorText">#000000</color>
+    <color name="colorPrimaryLight">#FFFFFF</color>
+    <color name="colorTitle">#000000</color>
+    <color name="colorBackground">#FFE600</color>
+    <color name="colorGreyedButtonBackground">#A9A9A9</color>
+
+    <color name="colorTPAPNGText">#688400</color>
+    <color name="colorButtonTextAdventures">#688400</color>
+    <color name="colorVisitTravelSites">#8A3B1D</color>
+    <color name="colorImageAndVideo">#766C52</color>
+    <color name="colorLatestNews">#514433</color>
+
+</resources>

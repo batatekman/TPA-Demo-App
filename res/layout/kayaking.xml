@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg_trekking">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TextView Intro into Trekking in PNG -->
+        <TextView
+            android:id="@+id/kayaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:textSize="13sp" />
+
+        <!-- This is Highlands Images for Trekking & Hiking -->
+        <!-- Images obtained from TPA 2017                  -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/kayaking1_adventure_papuanewguinea_davidkirkland"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/kayaking1_adventure_papuanewguinea3_davidkirkland"/>
+
+        <!-- Copyright TPA PNG -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:text="\u00A9PNG Tourism Promotion Authority 2017. All Rights Reserved"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

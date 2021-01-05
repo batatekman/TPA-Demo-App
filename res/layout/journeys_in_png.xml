@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.terminus.tpa.VisitTravelSites">
+
+    <!-- TextView Documenting Intro for Journeys in PNG -->
+    <TextView
+        android:id="@+id/intro_journeys_png"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:textSize="13sp" />
+
+    <!-- Button for Trekking &  Hiking -->
+    <Button
+        android:id="@+id/trekkingHiking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Trekking &amp; Hiking"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Diving -->
+    <Button
+        android:id="@+id/diving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Diving"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Surfing -->
+    <Button
+        android:id="@+id/surfing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Surfing"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Fishing -->
+    <Button
+        android:id="@+id/fishing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Fishing"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Cruising -->
+    <Button
+        android:id="@+id/cruising"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Cruising"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Bird Watching -->
+    <Button
+        android:id="@+id/birdWatching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Bird Watching"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Kayaking -->
+    <Button
+        android:id="@+id/kayaking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Kayaking"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Snorkelling -->
+    <Button
+        android:id="@+id/snorkelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Snorkelling"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Stand Up Paddle -->
+    <Button
+        android:id="@+id/standUpPaddle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Stand Up Paddle"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Button for Cultural Events -->
+    <Button
+        android:id="@+id/culturalEvents_journeys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/journeys_png_standard"
+        android:text="Cultural Events"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonTextAdventures" />
+
+    <!-- Copyright TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        android:text="\u00A9PNG Tourism Promotion Authority 2017. All Rights Reserved"/>
+
+</LinearLayout>
+
+</ScrollView>
